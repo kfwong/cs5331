@@ -1,0 +1,14 @@
+{
+    "name": "Exploiting Chrome Extension Through WebRTC Channel",
+    "version": "1.0",
+    "description": "TBA",
+    "manifest_version": 2,
+    "content_scripts": [
+        {
+            "matches": ["https://www.google.com/*"],
+            "js": [
+                "script.js"
+            ]
+        }
+    ]
+}
